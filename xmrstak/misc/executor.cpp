@@ -556,31 +556,31 @@ void executor::ex_main()
 	{
 	case cryptonight_heavy:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:8888", "", "", "", 0.0, true, true, "", true);
+			pools.emplace_front(0, "xmr-jp1.nanopool.org:14433", "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.c39cb6c4d22345c9a080d6d82bcb09f1248d72f3216f4b1387d3339e811218bd.xmrstak", "", "", 0.0, true, true, "", false);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:5555", "", "", "", 0.0, true, false, "", true);
+			pools.emplace_front(0, "xmr-jp1.nanopool.org:14444", "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.c39cb6c4d22345c9a080d6d82bcb09f1248d72f3216f4b1387d3339e811218bd.xmrstak", "", "", 0.0, true, false, "", false);
 		break;
 
 	case cryptonight_monero:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:8800", "", "", "", 0.0, true, true, "", false);
+			pools.emplace_front(0, "xmr-jp1.nanopool.org:14433", "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.c39cb6c4d22345c9a080d6d82bcb09f1248d72f3216f4b1387d3339e811218bd.xmrstak", "", "", 0.0, true, true, "", false);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:5500", "", "", "", 0.0, true, false, "", false);
+			pools.emplace_front(0, "xmr-jp1.nanopool.org:14444", "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.c39cb6c4d22345c9a080d6d82bcb09f1248d72f3216f4b1387d3339e811218bd.xmrstak", "", "", 0.0, true, false, "", false);
 		break;
 	case cryptonight_ipbc:
 	case cryptonight_aeon:
 	case cryptonight_lite:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:7777", "", "", "", 0.0, true, true, "", true);
+			pools.emplace_front(0, "xmr-jp1.nanopool.org:14433", "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.c39cb6c4d22345c9a080d6d82bcb09f1248d72f3216f4b1387d3339e811218bd.xmrstak", "", "", 0.0, true, true, "", true);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:4444", "", "", "", 0.0, true, false, "", true);
+			pools.emplace_front(0, "xmr-jp1.nanopool.org:14444", "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.c39cb6c4d22345c9a080d6d82bcb09f1248d72f3216f4b1387d3339e811218bd.xmrstak", "", "", 0.0, true, true, "", true);
 		break;
 
 	case cryptonight:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:6666", "", "", "", 0.0, true, true, "", false);
+			pools.emplace_front(0, "xmr-jp1.nanopool.org:14433", "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.c39cb6c4d22345c9a080d6d82bcb09f1248d72f3216f4b1387d3339e811218bd.xmrstak", "", "", 0.0, true, true, "", true);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:3333", "", "", "", 0.0, true, false, "", false);
+			pools.emplace_front(0, "xmr-jp1.nanopool.org:14444", "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.c39cb6c4d22345c9a080d6d82bcb09f1248d72f3216f4b1387d3339e811218bd.xmrstak", "", "", 0.0, true, true, "", true);
 		break;
 
 	default:
